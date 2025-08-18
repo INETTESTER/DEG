@@ -3,18 +3,23 @@ import { sleep } from 'k6';
 import { error_check } from '../check/check.js';
 import { scenario } from 'k6/execution';
 
-import { ran } from '../api/script.js';
-import { callback_scb } from '../api/getJson.js';
+import { gateway_get } from '../api/gateway_get.js';
+import { getway_post } from '../api/getway_post.js';
+import { portal_summary } from '../api/portal_summary.js';
+import { portal_kong } from '../api/portal_kong.js';
 
 
 
 //============================================================================
 
 export default function () {    //เรียกใช้ API ใน export default function
-  response = ran()
-  //response = callback_scb(scenario)
+  //response = gateway_get()
+  //response = getway_post()
+  //response = portal_summary()
+  response = portal_kong()
 
-  
+
+
   error_check(response);
   sleep(1)
 }
