@@ -16,7 +16,7 @@ export default function () {    //เรียกใช้ API ใน export def
   //response = gateway_get()
   //response = getway_post()
   //response = portal_summary()
-  response = portal_kong()
+  //response = portal_kong()
 
 
 

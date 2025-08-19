@@ -6,7 +6,7 @@
 ##########################################################################
                      API="portal_kong" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1aziBlHx2Cph2A5a80V8dglWs1yQvdOk0QmOrfkRqfBA/edit?gid=1610289956#gid=1610289956" 
-                     id="1"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     id="3"                 #เปลี่ยน id ทุกครั้งที่ยิง
                      user="6000";            #จำนวนผู้ใช้งาน
                      duration="1";          #วินาที
                      scenario="1"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
